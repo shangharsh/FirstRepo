@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+body{
+    background:#f1f0d1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    overflow: auto;
+    margin:0;  
+    padding:0;
+    border-radius: solid black;
+}
+
+.hide-mobile{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+   
+    max-width: 100%;
+ 
+}
+
+.container{
+    text-align: center;
+}
+
+#wrapper{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background: #878E63;  
+}
+
+#wrapper p{
+   font-size: 19px;
+   margin-top: 8px;
+   margin-right: 4px;
+   text-align: right;
+}
+
+#wrapper p a{
+    text-decoration: none;
+    color:black;
+}
+
+.massage-logo{
+    width: 330px;
+}
+
+.menu{
+    width: 25px;
+    margin-right: 5px;
+}
+
+nav{
+    text-align: right;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(65, 61, 61);
+    color: white;
+}
+
+
+.footer-links1 h1{
+    margin: 0;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.footer-links1 p{
+    margin: 0;
+    padding-top: 20px;
+}
+
+.footer-links2 h1{
+    text-decoration: underline;
+    padding-top: 15px;
+    font-size:18px;
+}
+
+.footer-links2 ul li{
+    display: flex;
+    float: left;
+    padding-top: 9px;
+}
+
+.footer-links2 ul li img{
+    margin-left: 8px;
+
+}
+
+.footer-links3{
+    margin-left: 30px;
+}
+
+nav ul{
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    background: rgb(36,41,44);
+    height: 100%;
+    text-align: left;
+    padding-top: 38px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 4px 10px;
+    width: 100%;
+    background-color: rgb(49,55,59);
+}
+
+nav ul li a:hover{
+    background-color: rgb(65,73,78);
+}
+
+.exit-btn{
+    margin-bottom: 8px;
+    margin-top: -10px;
+    text-align: right;
+    padding: 0 12px;
+}
+
+.exit-btn img{
+    width: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:445px){
+
+    body{
+        font-size: 15px;
+    }
+
+    .footer-links2 ul li img{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width:515px){
+ 
+    .footer-links2 ul li img{
+        width: 60px;
+        margin-left: 57px;
+    }
+}
+
+@media only screen and (min-width:630px){
+
+    footer{
+        display: flex;
+    }
+
+    .footer-links1 h1{
+        padding-top: 5px;
+        font-size: 18px;
+    }
+
+    .footer-links1 p{
+     padding-top: 15px;
+     padding-left: 9px;
+   }
+
+   .footer-links2 h1{
+       font-size: 18px;
+       padding-top:5px;
+       margin-top: 0px;
+   }
+
+   .footer-links3 img{
+       padding-top: 25px;
+   }
+
+   .footer-links2 h1{
+       margin-bottom:0;
+   }
+}
+
+@media only screen and (min-width:710px){
+
+    .clearfix {
+        box-sizing: border-box;
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .threepic{
+          float:left;
+          max-width:32.9%;
+          padding-left:2px ;
+      }
+
+      .threepic h2{
+          font-size:18px
+      }
+
+    section .three-words{
+        height: 50px;
+    }
+
+    .massage-banner{
+        display: flex;
+    }
+
+    .massage-banner p{
+     margin: 0px;
+    }
+
+    .massage-banner img{
+       height: 159px;
+    }
+
+    
+
+    .footer-links2 ul li{
+        margin-left: 25px;
+    }
+
+}
+
+@media only screen and (min-width:771px){
+
+   
+
+    .footer-links2 ul li img{
+        margin: 0;
+        
+    }
+
+    .footer-links3 img{
+        margin-left: 35px;
+        width: 150px;
+        padding-top: 0;
+    }
+    
+}
+
+@media only screen and (min-width:798px){
+
+    .threepic ul li:nth-child(2) img{
+        padding-top:25px;
+    }
+
+    .threepic ul li:nth-child(3) img{
+        margin-top:25px;
+    }
+}
+
+@media only screen and (min-width:850px){
+
+    .footer-links2 ul li{
+        margin: 0;
+        
+    }
+
+    .footer-links1{
+        padding-left: 30px;
+    }
+
+    .footer-links2{
+        padding-left: 100px;
+    }
+
+    .footer-links3 img{
+        padding-left:50px;
+    }
+
+    
+    section .three-words{
+        height: 70px;
+    }
+
+    @media only screen and (min-width:934px){
+
+        .threepic ul li:nth-child(1) h2{
+            font-size:22px;
+        }
+
+        .threepic ul li:nth-child(2) img {
+            padding-top: 0;
+        }
+
+        .threepic ul li:nth-child(3) img {
+            margin-top: 0;
+            padding:0 ;
+        }
+
+        .threepic h2{
+            padding-top: 10px;
+        }
+
+        footer{
+            padding-left: 98px;
+        }
+}
+
+@media only screen  and (min-width:1025px){
+
+    .show-desktop{
+        display: block;
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    nav ul {
+        position: inherit;
+        width:auto;
+        background:none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+        
+    }
+     nav ul li{
+         float: left;
+         
+     }
+
+     nav ul li a{
+         background-color: inherit;
+         color: black;
+     }
+
+     nav ul li a:hover{
+         background: white;
+     }
+
+     nav{
+         padding-left: 298px ;
+         font-size:22px
+     }
+
+     .massage-banner img{
+         width: 31%;
+         height: 50%;
+     }
+
+     
+    .footer-links1{
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .footer-links2{
+        padding-top: 10px;
+    }
+}
+
+@media only screen  and (min-width:1220px){
+   footer{
+       padding-left:170px
+   }
+}
+
+@media only screen  and (min-width:1220px){
+
+
+    .footer-links2 ul{
+        padding-left: 10px;
+    }
+
+    .footer-links2 ul li{
+        padding-left:20px
+    }
+}
+
+@media only screen  and (min-width:1220px){
+    .footer-links3{
+        padding-left: 50px;
+    }
+
+    .footer-links2 ul{
+        padding-left: 30px;
+
+    }
+}
+
+@media only screen  and (min-width:1500px){
+    footer{
+        padding-left: 150px;
+        height: 190px; 
+    }
+
+    .footer-links1{
+        font-size: 20px;
+    }
+
+    .footer-links2 ul li{
+        padding-left: 35px;
+    }
+
+    .footer-links3 img{
+        width: 180px;
+        padding-left: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
